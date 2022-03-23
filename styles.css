@@ -1,0 +1,103 @@
+body {
+  margin: 10px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html,
+body,
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: medium;
+  margin-right: 40px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-container-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.list-content {
+  width: 240px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-group {
+  width: 400px;
+}
+
+.list-group-item {
+  position: relative;
+  padding: 5px 10px 5px 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-group-item-text {
+  width: 80%;
+  line-height: 1.5rem;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  border-color: #999;
+  transition: border-color 0.1s ease-in-out;
+}
+
+.btn {
+  align-items: center;
+  background-color: var(--btn-color);
+  border-color: var(--btn-color);
+  border-radius: 0.3125rem;
+  border-width: 0px;
+  color: var(--btn-txt-color);
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1;
+  padding: 0.3rem 0.6rem;
+  position: relative;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: var(--btn-color-hover);
+}
+
+.btn-clear {
+  width: 80px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.btn-delete {
+  border-width: 0px;
+  background-color: #fff;
+}
+
+.btn--primary {
+  --btn-color: #f05555;
+  --btn-color-hover: #da2f2f;
+  --btn-txt-color: #fff;
+  --btn-icon-color: var(--btn-txt-color);
+}
+
+.selected {
+  background-color: #f9c7c8;
+  border: solid #f05555 1px;
+}

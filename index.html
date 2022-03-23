@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dexie@3.2.1/dist/dexie.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="list-container">
+      <h1>Sortable Drag and Drop</h1>
+      <div class="list-content">
+        <button class="clear btn btn--primary btn-clear btn--sm" type="button">
+          Clear
+        </button>
+        <div class="list-group-item">
+          <input
+            type="text"
+            maxlength="25"
+            class="list-group-item-text"
+            id="item-input"
+            placeholder="Type here (25 char max)"
+          />
+        </div>
+        <div id="sortableList"></div>
+      </div>
+    </div>
+  </body>
+</html>
