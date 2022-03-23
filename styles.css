@@ -24,12 +24,6 @@ input:focus {
   align-items: center;
 }
 
-.list-container-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 .list-content {
   width: 240px;
   margin-top: 15px;
