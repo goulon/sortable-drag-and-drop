@@ -25,6 +25,11 @@ Open the web app
 ```
 
 
+## Acknowledgements
+
+ - [SortableJS, JavaScript library for reorderable drag-and-drop lists](https://sortablejs.github.io/Sortable/)
+ - [Dexie, A Minimalistic Wrapper for IndexedDB](https://dexie.org)
+
 
 ## Authors
 
